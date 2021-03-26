@@ -18,6 +18,7 @@ class CreateTableStores extends Migration
             $table->dateTime('order_date');
             $table->string('order_code')->nullable();
             $table->decimal('total');
+            $table->decimal('discount');
             $table->timestamps();
         });
     }
