@@ -1,0 +1,210 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2021.2.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2021-03-26T21:37:58.999Z",
+				"time": 52.8,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8486/LIST_ORDERS?include=products",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "XSRF-TOKEN",
+							"value": "eyJpdiI6ImFRVExhYXB0OEkrM3pYeHcvd0k1d0E9PSIsInZhbHVlIjoiNVhoSGlHNXNKZmdrQUw1eGk4Ykh6Ynlra3ltRlhWak5sWk0zYzNLaE5oRlFQem95NDNrbDhMMkR5MEsyTk53dVRiVjdkR1JsMGQvUndnOVlZdXB1TmczZWlZU1hBZWhlZEQzdEN1bzk4ajhnTXMyZ2NYcjJTQ0hUd3MvM0VyYmkiLCJtYWMiOiJkNjQ1YzA1ZmI3NjNkZThjMjdiZjNhMzlhMjM5ZjZiNDc3ZWMwMTc1YzVkYTMzMzUwZTdiOTg5NmFkZThhN2M1In0%3D",
+							"path": "/",
+							"expires": "2021-03-26T22:04:53.000Z"
+						},
+						{
+							"name": "laravel_session",
+							"value": "eyJpdiI6Imt0Q1pOVU9rMVJRSVhtbDBINnZjRmc9PSIsInZhbHVlIjoiYmtYdkZkTUhWZ3NZZlhDMUlWYXJEZjlhZjlUVFBDaWNlVmlCRUJwejY5NnU2d2NWVk5WSzlVL25jOVQ2c2NaWThadWYvNHArdzRPRWlhSjRyM2tJZFhGYnp3dzMyZW1FTGpQa2VSZWpQVUpWQjk1b3NFOGIvWUVqeGRkTmJzSnEiLCJtYWMiOiIwMjZhZWI2NWViYTNjMGMzZWFmMzk4NDIwNTdkMTE2NjcyZWY1ZmQ5MjliOWFkYzZiODhkZGViN2JjOWE3MTFlIn0%3D",
+							"path": "/",
+							"expires": "2021-03-26T22:04:53.000Z",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "Server",
+							"value": "nginx/1.19.8"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "X-Powered-By",
+							"value": "PHP/7.3.27"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 26 Mar 2021 20:04:53 GMT"
+						},
+						{
+							"name": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImFRVExhYXB0OEkrM3pYeHcvd0k1d0E9PSIsInZhbHVlIjoiNVhoSGlHNXNKZmdrQUw1eGk4Ykh6Ynlra3ltRlhWak5sWk0zYzNLaE5oRlFQem95NDNrbDhMMkR5MEsyTk53dVRiVjdkR1JsMGQvUndnOVlZdXB1TmczZWlZU1hBZWhlZEQzdEN1bzk4ajhnTXMyZ2NYcjJTQ0hUd3MvM0VyYmkiLCJtYWMiOiJkNjQ1YzA1ZmI3NjNkZThjMjdiZjNhMzlhMjM5ZjZiNDc3ZWMwMTc1YzVkYTMzMzUwZTdiOTg5NmFkZThhN2M1In0%3D; expires=Fri, 26-Mar-2021 22:04:53 GMT; Max-Age=7200; path=/; samesite=lax"
+						},
+						{
+							"name": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Imt0Q1pOVU9rMVJRSVhtbDBINnZjRmc9PSIsInZhbHVlIjoiYmtYdkZkTUhWZ3NZZlhDMUlWYXJEZjlhZjlUVFBDaWNlVmlCRUJwejY5NnU2d2NWVk5WSzlVL25jOVQ2c2NaWThadWYvNHArdzRPRWlhSjRyM2tJZFhGYnp3dzMyZW1FTGpQa2VSZWpQVUpWQjk1b3NFOGIvWUVqeGRkTmJzSnEiLCJtYWMiOiIwMjZhZWI2NWViYTNjMGMzZWFmMzk4NDIwNTdkMTE2NjcyZWY1ZmQ5MjliOWFkYzZiODhkZGViN2JjOWE3MTFlIn0%3D; expires=Fri, 26-Mar-2021 22:04:53 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+						}
+					],
+					"content": {
+						"size": 1243,
+						"mimeType": "application/json",
+						"text": "{\"data\":[{\"OrderId\":9,\"OrderDate\":\"26\\/03\\/2021 19:54\",\"OrderCode\":\"2021-03-9\",\"TotalAmountWihtoutDiscount\":\"500.00\",\"TotalAmountWithDiscount\":\"500,00\",\"products\":{\"data\":[{\"ArticleCode\":\"2\",\"ArticleName\":\"Product 2\",\"UnitPrice\":\"12.10\",\"Quantity\":5}]}},{\"OrderId\":10,\"OrderDate\":\"26\\/03\\/2021 19:55\",\"OrderCode\":\"2021-03-10\",\"TotalAmountWihtoutDiscount\":\"500.00\",\"TotalAmountWithDiscount\":\"500,00\",\"products\":{\"data\":[{\"ArticleCode\":\"2\",\"ArticleName\":\"Product 2\",\"UnitPrice\":\"12.10\",\"Quantity\":5}]}},{\"OrderId\":11,\"OrderDate\":\"26\\/03\\/2021 19:56\",\"OrderCode\":\"2021-03-11\",\"TotalAmountWihtoutDiscount\":\"500.00\",\"TotalAmountWithDiscount\":\"500,00\",\"products\":{\"data\":[{\"ArticleCode\":\"2\",\"ArticleName\":\"Product 2\",\"UnitPrice\":\"12.10\",\"Quantity\":5}]}},{\"OrderId\":12,\"OrderDate\":\"26\\/03\\/2021 19:59\",\"OrderCode\":\"2021-03-12\",\"TotalAmountWihtoutDiscount\":\"500.00\",\"TotalAmountWithDiscount\":\"500,00\",\"products\":{\"data\":[{\"ArticleCode\":\"2\",\"ArticleName\":\"Product 2\",\"UnitPrice\":\"12.10\",\"Quantity\":5}]}},{\"OrderId\":13,\"OrderDate\":\"26\\/03\\/2021 20:00\",\"OrderCode\":\"2021-03-13\",\"TotalAmountWihtoutDiscount\":\"500.00\",\"TotalAmountWithDiscount\":\"425,00\",\"products\":{\"data\":[{\"ArticleCode\":\"2\",\"ArticleName\":\"Product 2\",\"UnitPrice\":\"12.10\",\"Quantity\":5}]}}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 52.8,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "LIST_ORDERS"
+			},
+			{
+				"startedDateTime": "2021-03-26T21:37:58.999Z",
+				"time": 66.368,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8486/CREATE_ORDER",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "\n\t\t\n\t\t\t[\n\t\t\t\t{\n\t\t\t\t\t\"ArticleCode\": 2,\n\t\t\t\t\t\"ArticleName\": \"Product 2\",\n\t\t\t\t\t\"UnitPrice\": 100.00,\n\t\t\t\t\t\"Quantity\": 5\n\t\t\t\t}\n\t\t\t]\n\t\t\n\t\t\n\t\t \n\n\n",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "XSRF-TOKEN",
+							"value": "eyJpdiI6Im9OVmd0aWkvbmdWREE1MlZlMnVsUlE9PSIsInZhbHVlIjoiajJjZVJtTjJ5N3N4WXl3NEJKWjY4czFoZWl1VzJtVmxmNHVyL00zYnV3L1NMSkpYLzluMTIxc21rL0VoZnpSODRLRW10OWM4UXNHaCs4d0hvb1pzRElOTlpYakwyRTJrTWNrdmFhait3SGJGeXRUOGZkcmZFT2pSNEc3NTJBc2QiLCJtYWMiOiIwZWVlNTlhMmRkMWFkYmM5NmVmM2FhMDVjZWQ3NDFmODBhN2NkMjlmY2RlNzk1MjgzNWZkZDZmOGNkNDgwODRiIn0%3D",
+							"path": "/",
+							"expires": "2021-03-26T22:05:04.000Z"
+						},
+						{
+							"name": "laravel_session",
+							"value": "eyJpdiI6InZOOHBTa1paMTJna0FITmx6em9LRkE9PSIsInZhbHVlIjoiVDl0aHgyckE1NlBxUUtJL3M2SDlFMmh4M1B6dkdLLzdZNVF5VENDSG9lajdTR0lqYlFQQkQ1S2dEQkZuVFZtMTNtbDhjRFBVVm4wcG1XaWZ2eEtMU0VpUVBNU0ZKZUxwSGlyZ3ljYzdHeGRYVkJxVkdNL2U2K1hUSE9LQW45UUEiLCJtYWMiOiIwOTJiNzdmNTEwOWZmYWE5NzA1ODllMzBlMTMwMGU2MGVjNWM1NzdkYzhkNzhiYTdlMDYyODY2ZTUzZGQ3NTY4In0%3D",
+							"path": "/",
+							"expires": "2021-03-26T22:05:04.000Z",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "Server",
+							"value": "nginx/1.19.8"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "X-Powered-By",
+							"value": "PHP/7.3.27"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 26 Mar 2021 20:05:04 GMT"
+						},
+						{
+							"name": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6Im9OVmd0aWkvbmdWREE1MlZlMnVsUlE9PSIsInZhbHVlIjoiajJjZVJtTjJ5N3N4WXl3NEJKWjY4czFoZWl1VzJtVmxmNHVyL00zYnV3L1NMSkpYLzluMTIxc21rL0VoZnpSODRLRW10OWM4UXNHaCs4d0hvb1pzRElOTlpYakwyRTJrTWNrdmFhait3SGJGeXRUOGZkcmZFT2pSNEc3NTJBc2QiLCJtYWMiOiIwZWVlNTlhMmRkMWFkYmM5NmVmM2FhMDVjZWQ3NDFmODBhN2NkMjlmY2RlNzk1MjgzNWZkZDZmOGNkNDgwODRiIn0%3D; expires=Fri, 26-Mar-2021 22:05:04 GMT; Max-Age=7200; path=/; samesite=lax"
+						},
+						{
+							"name": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6InZOOHBTa1paMTJna0FITmx6em9LRkE9PSIsInZhbHVlIjoiVDl0aHgyckE1NlBxUUtJL3M2SDlFMmh4M1B6dkdLLzdZNVF5VENDSG9lajdTR0lqYlFQQkQ1S2dEQkZuVFZtMTNtbDhjRFBVVm4wcG1XaWZ2eEtMU0VpUVBNU0ZKZUxwSGlyZ3ljYzdHeGRYVkJxVkdNL2U2K1hUSE9LQW45UUEiLCJtYWMiOiIwOTJiNzdmNTEwOWZmYWE5NzA1ODllMzBlMTMwMGU2MGVjNWM1NzdkYzhkNzhiYTdlMDYyODY2ZTUzZGQ3NTY4In0%3D; expires=Fri, 26-Mar-2021 22:05:04 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+						}
+					],
+					"content": {
+						"size": 195,
+						"mimeType": "application/json",
+						"text": "{\"order_date\":\"2021-03-26T20:05:04.000000Z\",\"total\":\"500.00\",\"discount\":75,\"updated_at\":\"2021-03-26T20:05:04.000000Z\",\"created_at\":\"2021-03-26T20:05:04.000000Z\",\"id\":14,\"order_code\":\"2021-03-14\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 66.368,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "CREATE_ORDER"
+			}
+		]
+	}
+}
